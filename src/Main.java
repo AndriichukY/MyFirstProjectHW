@@ -11,6 +11,8 @@ public class Main {
         firstUser.isActive = true;
         firstUser.printUserInfo();
         firstUser.printTotalAmountOfSpentMoney();
+        firstUser.addDiscount(15);
+        firstUser.printTotalAmountOfSpentMoneyWithDiscount();
 
         secondUser.setAge(15);
         secondUser.setPassword("*****");
