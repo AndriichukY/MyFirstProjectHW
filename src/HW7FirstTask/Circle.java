@@ -1,4 +1,4 @@
-package HW7;
+package HW7FirstTask;
 
 import java.util.Arrays;
 import java.util.Objects;

@@ -1,4 +1,4 @@
-package HW7;
+package HW7FirstTask;
 
 public class Rectangle extends Shape {
 
