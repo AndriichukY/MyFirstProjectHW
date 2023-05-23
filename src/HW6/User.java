@@ -1,3 +1,5 @@
+package HW6;
+
 public class User {
     String username = "Unknown";
     private int age;
@@ -54,7 +56,7 @@ public class User {
 
     public void printUserInfo() {
         System.out.println(
-                        "\n" + "User name is " + username + "\n"
+                        "\n" + "HW6.User name is " + username + "\n"
                         + "The age is " + age + "\n"
                         + "The password is: " + password + "\n"
                         + "The email is: " + email + "\n"
