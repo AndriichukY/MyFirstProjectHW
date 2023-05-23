@@ -5,6 +5,8 @@ public class User {
     private String password;
     boolean isActive;
     double amountSpentMoney;
+    double amountSpentMoneyDiscount;
+
 
     public User() {
     }
@@ -43,16 +45,24 @@ public class User {
     }
 
     public void printTotalAmountOfSpentMoney() {
-        System.out.println("The total amount of purchase is " + amountSpentMoney + "\n");
+        System.out.println("The total amount of purchase is " + amountSpentMoney);
+    }
+
+    public void printTotalAmountOfSpentMoneyWithDiscount() {
+        System.out.println("The total amount of purchase with discount is " + amountSpentMoneyDiscount);
     }
 
     public void printUserInfo() {
         System.out.println(
-                "User name is " + username + "\n"
+                        "\n" + "User name is " + username + "\n"
                         + "The age is " + age + "\n"
                         + "The password is: " + password + "\n"
                         + "The email is: " + email + "\n"
                         + "The user is active: " + isActive
         );
+    }
+
+    public void addDiscount(int percent) {
+        amountSpentMoneyDiscount = amountSpentMoney - ((amountSpentMoney * percent) / 100);
     }
 }
