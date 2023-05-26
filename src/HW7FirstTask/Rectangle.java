@@ -2,6 +2,9 @@ package HW7FirstTask;
 
 public class Rectangle extends Shape {
 
+    int x1;
+    int y1;
+    int x2;
     public Rectangle(int[][] points, String color) {
         super(points, color);
     }
