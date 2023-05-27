@@ -1,6 +1,7 @@
-package HW7FirstTask;
+package HW8ThirdTask;
 
 public class Triangle extends Shape {
+
     public Triangle(int[][] points, String color) {
         super(points, color);
     }
