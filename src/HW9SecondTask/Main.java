@@ -1,4 +1,4 @@
-package HW8ThirdTask;
+package HW9SecondTask;
 
 public class Main {
     public static void main(String[] args) {
@@ -7,10 +7,10 @@ public class Main {
         int[][] circleCenterPoint = {{0,0}};
 
         Shape[] shapes = new Shape[4];
-        shapes[0] = new Triangle(trianglePoints, "blue");
-        shapes[1] = new Rectangle(rectanglePoints, "white");
-        shapes[2] = new Circle(circleCenterPoint, "red", 5);
-        shapes[3] = new Triangle(trianglePoints, "blue");
+        shapes[0] = new Triangle(trianglePoints, Color.BLUE);
+        shapes[1] = new Rectangle(rectanglePoints, Color.WHITE);
+        shapes[2] = new Circle(circleCenterPoint, Color.RED , 5);
+        shapes[3] = new Triangle(trianglePoints, Color.BLUE);
 
         System.out.println("Compare: " + (shapes[0].equals(shapes[3])));
         System.out.println("Hash code for shape: " + shapes[2].hashCode());
