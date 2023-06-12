@@ -13,6 +13,7 @@ public class SecondVariantLinkedList {
 
         public LinkedList removePeopleFromCircle(LinkedList circleOfPeople) {
             int index = 0;
+
             while (circleOfPeople.size() > 1) {
                 index = (index + 1) % circleOfPeople.size();
                 circleOfPeople.remove(index);
