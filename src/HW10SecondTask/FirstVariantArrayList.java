@@ -12,6 +12,7 @@ public class FirstVariantArrayList {
 
     public  ArrayList removePeopleFromCircle( ArrayList circleOfPeople) {
         int index = 0;
+
         while (circleOfPeople.size() > 1) {
             index = (index + 1) % circleOfPeople.size();
             circleOfPeople.remove(index);
