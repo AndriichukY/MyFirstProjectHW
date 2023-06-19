@@ -1,7 +1,6 @@
 package HW11;
 
 import java.util.HashMap;
-import java.util.HashSet;
 
 public class HW11SecondTAsk {
     public static void main(String[] args) {
